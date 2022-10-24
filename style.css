@@ -12,7 +12,24 @@ header {
   padding: 30px 280px;
 }
 
-
+@media only screen and (max-width:600px){
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 100px;
+      }
+}
+@media only screen and (min-width:600px) and (max-width:790px){
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 100px;
+      }
+}
 .continar {
     width: 100%;
 }
@@ -94,7 +111,13 @@ header {
  padding-right: 70px;
  
 }
-
+@media only screen and (max-width:600px){
+    .ntwo {
+        display: absolute;
+    
+        
+    }    
+}
 .ntwo h1{
     font-size: 60px;
 
@@ -124,6 +147,16 @@ header {
     justify-content: space-between;
     padding: 50px 150px;
     
+ }
+ @media only screen and (max-width:600px){
+    .aaa {
+        min-height: 80vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 150px;
+        
+     }
  }
  .iii {
     
@@ -729,4 +762,70 @@ button {
 }
 button:hover {
     box-shadow: 5px 5px #7971ea;
+}
+
+.mann >  div{
+    transition: all .5s ease-in-out;
+    z-index: 99;
+
+}
+.mann > div:hover {
+    transform: scale(1.05);
+}
+.shoooooping {
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 200px;
+    display: flex;
+    justify-content:space-between;
+    margin: 50px;
+}
+.shoooooopppping {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px 10px 20px;
+}
+.shoppppppppppppping{
+    display: flex;
+    justify-content: space-between;
+}
+.shoppppppppppppping select {
+    background-color: #e7e6f0;
+    
+}
+.tanktop {
+    display: flex;
+    justify-content: space-between;
+
+}
+.shoooooooping_two{
+    border: 1px solid #babac2;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.shoooooping_one {
+   border: 1px solid #babac2;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.tanktop div {
+    border: 1px solid rgb(241, 236, 236);
+    width: 100%;
+    height: 35vh;
+    margin: 20px;
+    text-align: center;
+    margin: 20px;
+text-align: center;
+padding-bottom: 40px;
+background-color: white;
+box-shadow: 1px;
+border-radius: 6px;
+}
+
+
+.tanktop div:hover {
+border: 2px solid white;
+background-color: white;
+box-sizing: 50px 50px;
+
 }
